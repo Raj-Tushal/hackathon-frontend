@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8005/api", 
+  baseURL: "https://hackathon-backend-production-a139.up.railway.app/", 
 });
 
 API.interceptors.request.use((req) => {
